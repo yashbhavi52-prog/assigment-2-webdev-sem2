@@ -1,0 +1,95 @@
+html,
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to bottom, #1f2a60, #1a2450);
+    color: white;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-section {
+    display: flex;
+    gap: 20px;
+}
+
+.left-panel, .right-panel {
+    background: #f4f4f4;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    background: #ff7b42;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff5c1f;
+}
+
+#history span {
+    background: #ff7b42;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.console-panel {
+    background: #f4f4f4;
+    color: black;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#consoleOutput {
+    background: #0b1b3f;
+    color: white;
+    padding: 10px;
+    height: 120px;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.weather-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.error {
+    color: red;
+}
